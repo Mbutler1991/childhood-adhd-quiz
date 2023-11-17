@@ -1,0 +1,20 @@
+body {
+    
+}
+
+header {
+    text-align: center;
+}
+
+.logo, .header {
+    height: 2em;
+    width: auto;
+    display: inline-block;
+}
+
+.quiz {
+    border: 1px solid black;
+    width: 60%;
+    margin-left:20%;
+    background-color: rgba(106, 90, 205, 0.65)
+}
