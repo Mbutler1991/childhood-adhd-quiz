@@ -14,7 +14,7 @@ window.addEventListener('load', function() {
         let conOne = document.getElementById('con-one');
         let questionOne = document.getElementById('q1').value;
         conOne.innerHTML = questionOne;
-    
+        roundTwo();
     } )
 })
    
