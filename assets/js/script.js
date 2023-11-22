@@ -38,15 +38,16 @@ function displayQuestions() {
         document.getElementById('submit').style.visibility = 'collapse';
         displayedQuestion.innerHTML = `<label for="each-question" id="test">${questions[i]}</label>
         <select id="each-question">
-            <option value=0>Never</option>
-            <option value=1>Just a Little</option>
-            <option value=2>Pretty Much</option>
-            <option value=1>Very Much</option>
+            <option value='0'>Never</option>
+            <option value='1'>Just a Little</option>
+            <option value='2'>Pretty Much</option>
+            <option value='3'>Very Much</option>
         </select>`  
         document.getElementById('start').innerText = 'Next Question!';
         i++
         ;  
         
+        return (document.getElementsByTagName('option').value);
              
     } else {
         document.getElementById('submit').style.visibility = 'visible';
@@ -54,6 +55,8 @@ function displayQuestions() {
     
     
 }
+
+
 
 function previousQuestion() {
    if (i > 0) {
@@ -70,12 +73,10 @@ function previousQuestion() {
    }
 }
 
+let test = parseFloat(displayQuestions);
+console.log(test)
 
-
-function submitAnswers(e) {
-    e.preventDefault;
-    adhdScore = parseInt(questions[1].value) + parseInt(questions[4].value) + parseInt(questions[5].value) + parseInt(questions[7].value) + parseInt(questions[10].value) + parseInt(questions[12].value) + parseInt(questions[14].value) + parseInt(questions[15].value) + parseInt(questions[17].value) + parseInt(questions[19].value);
-    if (adhdScore > 15) {
-        document.getElementById('score').innerHTML = `test`;
+function submitAnswers() {
+    
+        document.getElementById('score').innerHTML = `<p>test</p>`;
     } 
-}
