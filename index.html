@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Childhood ADHD Quiz</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <!--favicon from flaticon-->
@@ -17,8 +18,13 @@
             <form id="quiz">
                 
             </form>
-            <button value="start" name="start" id="start" onclick="displayQuestions();">Start!</button>
-            <!--<button  value="next" id="next">Next Question</button>-->
+            <button  value="previous" id="previous" onclick="previousQuestion();">Previous</button>
+            <button value="start" name="start" id="start" onclick="displayQuestions();">Start</button>
+            <input type="submit" id="submit" name="submit" value="Submit" onclick="submitAnswers();"
+            
+        </div>
+        <div id="score">
+            <p>You have ADHD</p>
         </div>
     </main>
     

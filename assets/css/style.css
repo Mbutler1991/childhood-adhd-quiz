@@ -10,10 +10,13 @@ header {
 
 main {
     text-align: center;
+    height: 8em;
+    margin-bottom: 5em;
 }
 
 p {
     text-align: center;
+    background-color: rgba(106, 90, 205, 0.65);
 }
 
 .logo, .header {
@@ -22,14 +25,19 @@ p {
     display: inline-block;
 }
 
+.logo {
+    height: 2em;
+    width: 2em;
+}
+
 .quiz {
     margin-top: 3em;
     margin-bottom: 3em;
     border: 1px solid black;
-    padding: 1px;
-    width: 80%;
-    height: 30%;
-    margin-left:10%;
+    padding-top: 2em;
+    width: 90%;
+    height: 80%;
+    margin: 5%;
     background-color: rgba(106, 90, 205, 0.65);
 }
 
