@@ -44,17 +44,42 @@ function displayQuestions() {
             <option value='3'>Very Much</option>
         </select>`  
         document.getElementById('start').innerText = 'Next Question!';
-        i++
-        ;  
+        i++;  
         
-        return (document.getElementsByTagName('option').value);
-             
+        let answerArray = [];
+        let answer = document.getElementById('each-question');
+        let btn = document.getElementById('start');
+        btn.addEventListener("click", function() {
+            gatherScore = parseInt(answer.value);
+            console.log(gatherScore);
+            answerArray.push(gatherScore);
+            return answerArray;
+           
+           
+                    
+                    
+            })
+            document.getElementById('submit').addEventListener('click', function() {
+            console.log(answerArray);
+        //    gatherScore(answer.value);
+        });
+    
+       // function gatherScore(answerValue) {
+        //let questionAnswer = answerValue;
+        //console.log(questionAnswer);
+
+    //     function calculateScore() {
+    //         let answerArray = document.getElementById('each-question').value;
+    //         return answerArray;
+    //  }
+    //  console.log(calculateScore(AnswerArray));
+         
     } else {
         document.getElementById('submit').style.visibility = 'visible';
     }
     
     
-}
+//}
 
 
 
@@ -73,10 +98,6 @@ function previousQuestion() {
    }
 }
 
-let test = parseFloat(displayQuestions);
-console.log(test)
 
-function submitAnswers() {
-    
-        document.getElementById('score').innerHTML = `<p>test</p>`;
-    } 
+
+}
