@@ -39,20 +39,34 @@ let anxietyScore = 0;
 //index number 
 i = 0;
 
+document.getElementById('submit').style.visibility = 'collapse';
+document.getElementById('previous').style.visibility = 'collapse';
+
 //make all scores hidden
-document.getElementById('adhd-result').style.visibility = 'collapse';
-document.getElementById('conduct-result').style.visibility = 'collapse';
-document.getElementById('learning-result').style.visibility = 'collapse';
-document.getElementById('psychosomatic-result').style.visibility = 'collapse';
-document.getElementById('hyper-result').style.visibility = 'collapse';
-document.getElementById('anxiety-result').style.visibility = 'collapse';
+if (conductScore < 14) {
+    document.getElementById('adhd-result').style.visibility = 'collapse';
+}
+if (conductScore < 14) {
+    document.getElementById('conduct-result').style.visibility = 'collapse';
+}
+if (learningScore < 7) {
+    document.getElementById('learning-result').style.visibility = 'collapse';
+}
+if (psychosomaticScore < 7) {
+    document.getElementById('psychosomatic-result').style.visibility = 'collapse';
+}
+if (hyperScore < 7) {
+    document.getElementById('hyper-result').style.visibility = 'collapse';
+}
+if (conductScore < 14) {
+    document.getElementById('anxiety-result').style.visibility = 'collapse';
+}
 
 //function that displays current question and next question
 function displayQuestions() {
      
     if (i < questions.length) { 
         let displayedQuestion = document.getElementById('quiz');
-        document.getElementById('submit').style.visibility = 'collapse';
         
         displayedQuestion.innerHTML = `<label for="each-question" id="test">${questions[i]}</label>
         <select id="each-question">
@@ -62,6 +76,7 @@ function displayQuestions() {
             <option value='3'>Very Much</option>
         </select>`  
         document.getElementById('start').innerText = 'Next Question!';
+        document.getElementById('previous').style.visibility = 'visible';
         i++;  
         
         
@@ -74,7 +89,6 @@ function displayQuestions() {
         answerArray.push(gatherScore);
         //console.log(answerArray); 
         calculateScores();
-        displayResult();
         })     
     } else {
         document.getElementById('submit').style.visibility = 'visible';
@@ -106,24 +120,27 @@ function calculateScores() {
     psychosomaticScore = parseInt(answerArray[16]) + parseInt(answerArray[21]) + parseInt(answerArray[22]) + parseInt(answerArray[23]);
     hyperScore = parseInt(answerArray[1]) + parseInt(answerArray[2]) + parseInt(answerArray[5]) + parseInt(answerArray[7]);
     anxietyScore = parseInt(answerArray[6]) + parseInt(answerArray[9]);
+
+    displayResult();
 }
 
 function displayResult() {
     document.getElementById('submit').style.visibility = 'collapse';
     document.getElementsByClassName('quiz').style.visibility = 'collapse';
+    document.getElementById('quiz').style.visibility = 'collapse';
     document.getElementById('previous').style.visibility = 'collapse';
     document.getElementById('start').style.visibility = 'collapse';
 
     if (adhdScore >= 18) {
         document.getElementById('adhd-result').style.visibility = 'visible';
-    }
+    } 
     if (conductScore >= 14) {
         document.getElementById('conduct-result').style.visibility = 'visible';
     }
-    if (learningScore>= 7) {
+    if (learningScore >= 7) {
         document.getElementById('learning-result').style.visibility = 'visible';
     }
-    if (psychosomatic >= 7) {
+    if (psychosomaticScore >= 7) {
         document.getElementById('psychosomatic-result').style.visibility = 'visible';
     }
     if (hyperScore >= 7) {
