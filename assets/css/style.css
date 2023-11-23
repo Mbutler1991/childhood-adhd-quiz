@@ -10,11 +10,15 @@ header {
 
 main {
     text-align: center;
-    height: 8em;
-    margin-bottom: 5em;
+    height: 80%;
+    margin-bottom: 1em;
 }
 
-p {
+footer {
+    bottom: 0px;
+}
+
+#footer {
     text-align: center;
     background-color: rgba(106, 90, 205, 0.65);
 }
@@ -40,7 +44,43 @@ p {
     margin: 5%;
     background-color: rgba(106, 90, 205, 0.65);
 }
+#metric{
+    display: flex;
+}
 
+.metric {
+    width: 35%;
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#adhd-result {
+    background-color: rgba(106, 90, 205, 0.8); 
+}
+
+#conduct-result {
+    background-color: rgba(82, 1, 0, 0.8);
+    color: white;
+}
+
+#learning-result {
+    background-color: rgba(254, 194, 98, 0.8);
+}
+
+#psychosomatic-result {
+    background-color: rgba(255,124,82, 0.8);
+}
+
+#hyper-result {
+    background-color: rgba(206,60,60, 0.8);
+}
+
+#anxiety-result {
+    background-color: rgba(140,0,45, 0.8);
+    color: white;
+}
 
 label {
     float: left;
