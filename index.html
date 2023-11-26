@@ -21,10 +21,11 @@
             <button  value="previous" id="previous" onclick="previousQuestion();">Previous</button>
             <button value="start" name="start" id="start" onclick="displayQuestions();">Start</button>
             <input type="submit" id="submit" name="submit" value="Submit">
+            <button type="reveal" name="reveal" id="reveal" onclick="displayResult();">Show Result</button>
             
         </div>
         <div id="adhd-result">
-            <h2>It is <span class='very'>very </span>likely that your child has ADHD</h2>
+            <h2>It is likely that your child has ADHD</h2>
             <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
         </div>
         <div id="metric">
@@ -50,6 +51,17 @@
             </div>
         </div>
     </main>
+
+    <table id="hidden-table">
+        <tr>
+            <td id="a-score">0</td>
+            <td id="b-score">0</td>
+            <td id="c-score">0</td>
+            <td id="d-score">0</td>
+            <td id="e-score">0</td>
+            <td id="f-score">0</td>
+        </tr>
+    </table>
     
     <footer>
         <p id="footer">This quiz can be used for general interest purposes only. This product cannot be used as a diagnostic tool so if this says your child has ADHD please do see a specialist.</p>
