@@ -120,8 +120,6 @@ function calculateScores() {
 
 function displayResult() {
     document.getElementById('submit').style.display = 'none';
-   // document.getElementsByClassName('quiz').style.display = 'none';
-   // document.getElementById('quiz').style.display = 'none';
     document.getElementById('previous').style.display = 'none';
     document.getElementById('start').style.display = 'none';  
 
