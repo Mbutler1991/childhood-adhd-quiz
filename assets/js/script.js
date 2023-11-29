@@ -1,9 +1,10 @@
 
 // the area for the quiz to display
-let quiz = document.getElementById('quiz');
+//let quiz = document.getElementById('quiz');
 
 //array of questions
-let questions = ['Sassy to grown-ups.',
+let questions = [
+    'Sassy to grown-ups.',
     'Excitable, impulsive.',
     'Wants to run things.',
     'Carries a chip on their shoulder.',
@@ -26,7 +27,8 @@ let questions = ['Sassy to grown-ups.',
     'Basically an unhappy child.',
     'Stomach aches.',
     'Other aches and pains.',
-    'Vomiting or nausea.' ]
+    'Vomiting or nausea.' 
+];
 
 //array for storing answers and different metrics for scoring
 let answerArray = [];
@@ -37,7 +39,7 @@ let psychosomaticScore;
 let hyperScore;
 let anxietyScore;
 //index number 
-i = -1;
+let i = -1;
 
 document.getElementById('submit').style.display = 'none';
 document.getElementById('previous').style.display = 'none';
@@ -72,13 +74,11 @@ function displayQuestions() {
         let btn = document.getElementById('submit');
         btn.addEventListener("click", function() {
         
-        gatherScore = answer.value;
-        //console.log(gatherScore);
+        let gatherScore = answer.value;
         answerArray.push(gatherScore);
         document.getElementById('reveal').style.display = 'inline';
-        //console.log(answerArray); 
         calculateScores();
-        })     
+        });   
     } else {
         document.getElementById('submit').style.display = 'inline';
     }
@@ -96,7 +96,7 @@ function previousQuestion() {
             <option value='1'>Just a Little</option>
             <option value='2'>Pretty Much</option>
             <option value='3'>Very Much</option>
-        </select>` 
+        </select>`;
         
    }
 }
@@ -153,5 +153,5 @@ function displayResult() {
 
 function searchBtn() {
     let adhdSearch = document.getElementById('location').value;
-    window.open('https://www.google.com/search?q=child+adhd+assessment+near+'+ adhdSearch, '_blank')
+    window.open('https://www.google.com/search?q=child+adhd+assessment+near+'+ adhdSearch, '_blank');
 } 
