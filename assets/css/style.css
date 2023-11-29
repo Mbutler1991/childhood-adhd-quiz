@@ -1,8 +1,10 @@
+/*background image and font colour*/
 body {
     background: url('../images/adhd-background.webp') no-repeat bottom center/cover;
     color: white;
 }
 
+/*flex properties to add scroll and keep footer to bottom and header to top*/
 #flx {
     display: flex;
     min-height: 100vh;
@@ -12,6 +14,7 @@ body {
     overflow-y: hidden;
 }
 
+/*basic layout for header, footer and main content*/
 header {
     text-align: center;
     width: 80%;
@@ -34,6 +37,7 @@ main {
     margin-left: 10%;
 }
 
+/*layout for header and logo*/
 .logo, .header {
     height: 2em;
     width: auto;
@@ -44,7 +48,7 @@ main {
     height: 2em;
     width: 2em;
 }
-
+/*layout for quiz box*/
 .quiz {
     margin-top: 3em;
     margin-bottom: 3em;
@@ -55,6 +59,7 @@ main {
     background-color: rgb(106, 90, 205);
 }
 
+/*layout for all result metrics*/
 #metric{
     display: flex;
     width: 80%;
@@ -68,10 +73,6 @@ main {
     margin: 1em;
     flex-direction: row;
     flex-wrap: wrap;
-} 
-
-#hidden-table {
-    display: none;
 } 
 
 #adhd-result {
@@ -112,10 +113,17 @@ main {
     padding: 5px;
 }
 
+/*hide table to keep scores hidden*/
+#hidden-table {
+    display: none;
+} 
+
+/*huide reveal answers button until end*/
 #reveal {
     display: none;
 }
 
+/*layout for questions and answer boxes*/
 label {
     float: left;
     padding-left: 10px;
@@ -128,6 +136,7 @@ select {
     margin-right: 10px;
 }
 
+/*link colours for other resources*/
 a {
     color: white;
 }
@@ -136,6 +145,7 @@ a:hover {
     color: black;
 }
 
+/*responsive settings for smaller screens*/
 @media screen and (max-width: 650px) {
     #metric, header, #footer, .quiz {
         width: 90%;
