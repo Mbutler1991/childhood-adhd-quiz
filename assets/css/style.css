@@ -135,3 +135,20 @@ a {
 a:hover {
     color: black;
 }
+
+@media screen and (max-width: 650px) {
+    #metric, header, #footer, .quiz {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 100%;
+    }
+
+    .metric {
+        flex-direction: column;
+    }
+
+    body {
+        background: url('../images/adhd-background650.webp') no-repeat bottom center/cover;
+    }
+}
