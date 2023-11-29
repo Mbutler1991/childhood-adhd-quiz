@@ -152,3 +152,9 @@ a:hover {
         background: url('../images/adhd-background650.webp') no-repeat bottom center/cover;
     }
 }
+
+@media screen and (max-width: 450px) {
+    body {
+        background: url('../images/adhd-background450.webp') no-repeat bottom center/cover;
+    }
+}
