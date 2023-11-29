@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--meta tag for scalability-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta tags for description and keywords - SEO-->
     <meta name="description" content="screening quiz for ADHD in children">
     <meta name="keywords" content="adhd, neourodivergent, conduct, learning, add">
     <title>Childhood ADHD Quiz</title>
@@ -11,25 +13,29 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon/adhd.png">
 </head>
 <body>
+    <!--div to add flex properties to body-->
     <div id="flx">
+        <!--header logo and banner-->
         <header>
             <img src="assets/images/adhd.webp" class="logo" alt="ADHD logo for the app">
             <h1 class="header">Childhood ADHD Quiz</h1>
         </header>
         <main>
+            <!--box and form for quiz-->
             <div class="quiz">
                 <form id="quiz">
                     
                     
                 </form><br>
-                <div id="center-btn">
-                    <button  value="previous" id="previous" onclick="previousQuestion();">Previous</button> 
-                    <button value="start" name="start" id="start" onclick="displayQuestions();">Start</button>
-                    <input type="submit" id="submit" name="submit" value="Submit" onclick="setScore();">
-                    <button name="reveal" id="reveal" onclick="displayResult();">Show Result</button>
-                </div><br><br>
+                <!--buttons for quiz navigation, calculating score and revealing answers-->
+                <button  value="previous" id="previous" onclick="previousQuestion();">Previous</button> 
+                <button value="start" name="start" id="start" onclick="displayQuestions();">Start</button>
+                <input type="submit" id="submit" name="submit" value="Submit" onclick="setScore();">
+                <button name="reveal" id="reveal" onclick="displayResult();">Show Result</button>
+                <br><br>
             
             </div>
+            <!--div containing main adhd result-->
             <div id="adhd-result">
                 <h2>It is likely that your child has ADHD</h2>
                 <p>ADHD is a neurological condition largely characterised by an inability to direct attention at will. Your child may struggle to maintain focus in areas where they are not interested but may be able to maintain focus in areas of interest. They may have issues with motivation particularly struggling to start tasks. They may show varying symptoms from 5 key areas Conduct, Learning, Psychosomatic, Hyperactivity/Impulsivity and Anxiety, more on each one which seems relevant to your child outlined below.</p>
@@ -40,6 +46,7 @@
                 <a href="https://www2.hse.ie/mental-health/services-support/camhs/" rel="noopener" target="_blank">CAMHS</a><br><br>
                 <a href="https://www.youtube.com/@HowtoADHD" rel="noopener" target="_blank">HowtoADHD on YouTube!</a><br><br>
             </div>
+            <!--divs for different symptom categories-->
             <div id="metric">
                 <div id="conduct-result" class="metric">
                     <h2>Your child displays Conduct related symptoms</h2>
@@ -63,7 +70,7 @@
                 </div>
             </div>
         </main>
-
+        <!--hidden table to hide score-->
         <table id="hidden-table">
             <tr>
                 <td id="a-score">0</td>
@@ -74,11 +81,12 @@
                 <td id="f-score">0</td>
             </tr>
         </table>
-    
+        <!--footer-->
         <footer>
             <p id="footer">This quiz can be used for general interest purposes only. This product cannot be used as a diagnostic tool so if this says your child has ADHD please do see a specialist.</p>
         </footer>
     </div>
+    <!--script to run javascript code-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
