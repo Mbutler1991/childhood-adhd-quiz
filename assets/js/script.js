@@ -150,3 +150,8 @@ function displayResult() {
         document.getElementById('anxiety-result').style.display = 'block';
     } 
 }   
+
+function searchBtn() {
+    let adhdSearch = document.getElementById('location').value;
+    window.open('https://www.google.com/search?q=child+adhd+assessment+near+'+ adhdSearch, '_blank')
+} 
