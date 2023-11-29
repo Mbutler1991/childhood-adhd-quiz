@@ -23,7 +23,7 @@
                 <div id="center-btn">
                     <button  value="previous" id="previous" onclick="previousQuestion();">Previous</button> 
                     <button value="start" name="start" id="start" onclick="displayQuestions();">Start</button>
-                    <input type="submit" id="submit" name="submit" value="Submit">
+                    <input type="submit" id="submit" name="submit" value="Submit" onclick="setScore();">
                     <button type="reveal" name="reveal" id="reveal" onclick="displayResult();">Show Result</button>
                 </div><br><br>
             
@@ -31,6 +31,12 @@
             <div id="adhd-result">
                 <h2>It is likely that your child has ADHD</h2>
                 <p>ADHD is a neurological condition largely characterised by an inability to direct attention at will. Your child may struggle to maintain focus in areas where they are not interested but may be able to maintain focus in areas of interest. They may have issues with motivation particularly struggling to start tasks. They may show varying symptoms from 5 key areas Conduct, Learning, Psychosomatic, Hyperactivity/Impulsivity and Anxiety, more on each one which seems relevant to your child outlined below.</p>
+                <h3>For ADHD Assessors in your area</h3>
+                <input type="text"><button>Search</button>
+                <h3>More Resources</h3>
+                <a href="adhdireland.ie" rel="noopener" target="_blank">ADHD Ireland</a><br>
+                <a href="https://www2.hse.ie/mental-health/services-support/camhs/" rel="noopener" target="_blank">CAMHS</a><br>
+                <a href="https://www.youtube.com/@HowtoADHD" rel="noopener" target="_blank">HowtoADHD on YouTube!</a>
             </div>
             <div id="metric">
                 <div id="conduct-result" class="metric">
@@ -46,7 +52,7 @@
                     <p>Your child may sometimes feel generally unwell, have headaches, stomach pains and other areas of discomfort/pain. Your child may also feel nauseous or vomit. They might have these symptoms without having any actual illness. These symptoms may arise before things they do not enjoy or are actively frightened of eg school, sports or extra curricular activities.</p>
                 </div>
                 <div id="hyper-result" class="metric">
-                    <h2>Your child displays Hyperactive/Impulsive behaviours</h2>
+                    <h2>Your child displays Hyperactive or Impulsive behaviours</h2>
                     <p>Your child may find it hard to sit still and exhibit squirmy/fidgety behaviour. Prefers to think/talk while moving and show signs of general restlessness. Your child may have a constant need for stimulation and may act without thinking about consequences. Although this may be frustrating to you this is often equally if not more frustrating for them and more often than not outside of their control.</p>
                 </div>
                 <div id="anxiety-result" class="metric">
