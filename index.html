@@ -9,63 +9,68 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon/adhd.png">
 </head>
 <body>
-    <header>
-        <img src="assets/images/adhd.png" class="logo" alt="ADHD logo for the app">
-        <h1 class="header">Childhood ADHD Quiz</h1>
-    </header>
-    <main>
-        <div class="quiz">
-            <form id="quiz">
-                
-            </form>
-            <button  value="previous" id="previous" onclick="previousQuestion();">Previous</button>
-            <button value="start" name="start" id="start" onclick="displayQuestions();">Start</button>
-            <input type="submit" id="submit" name="submit" value="Submit">
-            <button type="reveal" name="reveal" id="reveal" onclick="displayResult();">Show Result</button>
+    <div id="flx">
+        <header>
+            <img src="assets/images/adhd.png" class="logo" alt="ADHD logo for the app">
+            <h1 class="header">Childhood ADHD Quiz</h1>
+        </header>
+        <main>
+            <div class="quiz">
+                <form id="quiz">
+                    
+                    
+                </form><br>
+                <div id="center-btn">
+                    <button  value="previous" id="previous" onclick="previousQuestion();">Previous</button> 
+                    <button value="start" name="start" id="start" onclick="displayQuestions();">Start</button>
+                    <input type="submit" id="submit" name="submit" value="Submit">
+                    <button type="reveal" name="reveal" id="reveal" onclick="displayResult();">Show Result</button>
+                </div><br><br>
             
-        </div>
-        <div id="adhd-result">
-            <h2>It is likely that your child has ADHD</h2>
-            <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
-        </div>
-        <div id="metric">
-            <div id="conduct-result" class="metric">
-                <h2>It is likely that your child has ADHD</h2>
-                <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
             </div>
-            <div id="learning-result" class="metric">
+            <div id="adhd-result">
                 <h2>It is likely that your child has ADHD</h2>
-                <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
+                <p>ADHD is a neurological condition largely characterised by an inability to direct attention at will. Your child may struggle to maintain focus in areas where they are not interested but may be able to maintain focus in areas of interest. They may have issues with motivation particularly struggling to start tasks. They may show varying symptoms from 5 key areas Conduct, Learning, Psychosomatic, Hyperactivity/Impulsivity and Anxiety, more on each one which seems relevant to your child outlined below.</p>
             </div>
-            <div id="psychosomatic-result" class="metric">
-                <h2>It is likely that your child has ADHD</h2>
-                <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
+            <div id="metric">
+                <div id="conduct-result" class="metric">
+                    <h2>It is likely that your child has ADHD</h2>
+                    <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
+                </div>
+                <div id="learning-result" class="metric">
+                    <h2>It is likely that your child has ADHD</h2>
+                    <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
+                </div>
+                <div id="psychosomatic-result" class="metric">
+                    <h2>It is likely that your child has ADHD</h2>
+                    <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
+                </div>
+                <div id="hyper-result" class="metric">
+                    <h2>It is likely that your child has ADHD</h2>
+                    <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
+                </div>
+                <div id="anxiety-result" class="metric">
+                    <h2>It is likely that your child has ADHD</h2>
+                    <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
+                </div>
             </div>
-            <div id="hyper-result" class="metric">
-                <h2>It is likely that your child has ADHD</h2>
-                <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
-            </div>
-            <div id="anxiety-result" class="metric">
-                <h2>It is likely that your child has ADHD</h2>
-                <p>Lorem Ipsum fill this in with some placeholder text fo now and we will fill it in with the proper text in future but for now we just want some placeholder text so we know what we are working with</p>
-            </div>
-        </div>
-    </main>
+        </main>
 
-    <table id="hidden-table">
-        <tr>
-            <td id="a-score">0</td>
-            <td id="b-score">0</td>
-            <td id="c-score">0</td>
-            <td id="d-score">0</td>
-            <td id="e-score">0</td>
-            <td id="f-score">0</td>
-        </tr>
-    </table>
+        <table id="hidden-table">
+            <tr>
+                <td id="a-score">0</td>
+                <td id="b-score">0</td>
+                <td id="c-score">0</td>
+                <td id="d-score">0</td>
+                <td id="e-score">0</td>
+                <td id="f-score">0</td>
+            </tr>
+        </table>
     
-    <footer>
-        <p id="footer">This quiz can be used for general interest purposes only. This product cannot be used as a diagnostic tool so if this says your child has ADHD please do see a specialist.</p>
-    </footer>
+        <footer>
+            <p id="footer">This quiz can be used for general interest purposes only. This product cannot be used as a diagnostic tool so if this says your child has ADHD please do see a specialist.</p>
+        </footer>
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

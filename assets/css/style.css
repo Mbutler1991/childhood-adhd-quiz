@@ -1,26 +1,37 @@
 body {
-    background: url('../images/adhd-background.jpg') no-repeat center center/cover;
+    background: url('../images/adhd-background.jpg') no-repeat bottom center/cover;
+    color: white;
+}
+
+#flx {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 header {
     text-align: center;
+    width: 80%;
+    margin-left: 10%;
     border-bottom: 1px solid black;
-    background: rgba(106, 90, 205, 0.65)
+    font-size: 150%;
+    background: rgb(106, 90, 205);
 }
 
 main {
     text-align: center;
-    height: 80%;
+    font-size: 150%;
     margin-bottom: 1em;
-}
-
-footer {
-    bottom: 0px;
 }
 
 #footer {
     text-align: center;
-    background-color: rgba(106, 90, 205, 0.65);
+    background-color: rgb(106, 90, 205);
+    width: 80%;
+    margin-left: 10%;
 }
 
 .logo, .header {
@@ -39,52 +50,66 @@ footer {
     margin-bottom: 3em;
     border: 1px solid black;
     padding-top: 2em;
-    width: 90%;
-    height: 80%;
-    margin: 5%;
-    background-color: rgba(106, 90, 205, 0.65);
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(106, 90, 205);
 }
 
- #metric{
+#metric{
     display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .metric {
-    width: 35%;
+    width: 30%;
     display: flex;
     margin: 1em;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 } 
 
 #hidden-table {
     display: none;
-}
+} 
 
 #adhd-result {
-    background-color: rgba(106, 90, 205, 0.8); 
+    background-color: rgb(106, 90, 205); 
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    padding: 5px;
 }
 
 #conduct-result {
-    background-color: rgba(82, 1, 0, 0.8);
+    background-color: rgb(82, 1, 0);
     color: white;
+    padding: 5px;
 }
 
 #learning-result {
-    background-color: rgba(254, 194, 98, 0.8);
+    background-color: rgb(254, 194, 98);
+    color: black;
+    padding: 5px;
 }
 
 #psychosomatic-result {
-    background-color: rgba(255,124,82, 0.8);
+    background-color: rgb(255, 124, 82);
+    color: black;
+    padding: 5px;
 }
 
 #hyper-result {
-    background-color: rgba(206,60,60, 0.8);
+    background-color: rgb(206, 60, 60);
+    color: black;
+    padding: 5px;
 }
 
 #anxiety-result {
-    background-color: rgba(140,0,45, 0.8);
+    background-color: rgb(140, 0, 45);
     color: white;
+    padding: 5px;
 }
 
 #reveal {
@@ -93,8 +118,12 @@ footer {
 
 label {
     float: left;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 select {
     float: right;
+    padding-right: 10px;
+    margin-right: 10px;
 }

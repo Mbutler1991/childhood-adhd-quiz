@@ -37,7 +37,7 @@ let psychosomaticScore;
 let hyperScore;
 let anxietyScore;
 //index number 
-i = 0;
+i = -1;
 
 document.getElementById('submit').style.display = 'none';
 document.getElementById('previous').style.display = 'none';
@@ -54,9 +54,9 @@ document.getElementById('anxiety-result').style.display = 'none';
 //function that displays current question and next question
 function displayQuestions() {
      
-    if (i < questions.length) { 
+    if (i < (questions.length - 1)) { 
         let displayedQuestion = document.getElementById('quiz');
-        
+        ++i; 
         displayedQuestion.innerHTML = `<label for="each-question" id="test">${questions[i]}</label>
         <select id="each-question">
             <option value='0'>Never</option>
@@ -66,7 +66,7 @@ function displayQuestions() {
         </select>`  
         document.getElementById('start').innerText = 'Next Question!';
         document.getElementById('previous').style.display = 'inline';
-        i++;  
+         
         
         let answer = document.getElementById('each-question');
         let btn = document.getElementById('submit');
@@ -88,7 +88,7 @@ function displayQuestions() {
 function previousQuestion() {
    
     if (i > 0) {
-        i--;
+        --i;
         let displayedQuestion = document.getElementById('quiz');
         displayedQuestion.innerHTML = `<label for="each-question" id="test">${questions[i]}</label>
         <select id="each-question">
