@@ -1,8 +1,9 @@
 
-// the area for the quiz to display
-//let quiz = document.getElementById('quiz');
 
-//array of questions
+
+/**
+ * array of questions
+ */
 let questions = [
     'Sassy to grown-ups.',
     'Excitable, impulsive.',
@@ -29,8 +30,9 @@ let questions = [
     'Other aches and pains.',
     'Vomiting or nausea.' 
 ];
-
-//array for storing answers and different metrics for scoring
+/**
+ * array for storing answers and different metrics for scoring
+ */
 let answerArray = [];
 let adhdScore;
 let conductScore;
@@ -38,13 +40,21 @@ let learningScore;
 let psychosomaticScore;
 let hyperScore;
 let anxietyScore;
-//index number 
+
+/**
+ * index number 
+ */
 let i = -1;
 
-document.getElementById('submit').style.display = 'none';
-document.getElementById('previous').style.display = 'none';
-
-//make all scores hidden
+/**
+ * hiding buttons not needed until later
+ */
+ document.getElementById('submit').style.display = 'none';
+ document.getElementById('previous').style.display = 'none';
+ 
+/**
+ * make all scores hidden
+ */
 
 document.getElementById('adhd-result').style.display = 'none';
 document.getElementById('conduct-result').style.display = 'none'; 
@@ -53,7 +63,9 @@ document.getElementById('psychosomatic-result').style.display = 'none';
 document.getElementById('hyper-result').style.display = 'none'; 
 document.getElementById('anxiety-result').style.display = 'none';
 
-//function that displays current question and next question
+/**
+ * function that displays current question and next question
+ */
 function displayQuestions() {
      
     if (i < (questions.length - 1)) { 
@@ -84,7 +96,9 @@ function displayQuestions() {
     }
 }  
 
-//function for navigating to previous questions
+/**
+ * function for navigating to previous questions
+ */
 function previousQuestion() {
    
     if (i > 0) {
@@ -100,7 +114,10 @@ function previousQuestion() {
         
    }
 }
-//adding up all the scores in their own metric
+
+/**
+ * adding up all the scores in their own metric
+ */
 function calculateScores() {
     console.log(answerArray);
     adhdScore = parseInt(answerArray[1]) + parseInt(answerArray[4]) + parseInt(answerArray[5]) + parseInt(answerArray[7]) + parseInt(answerArray[10]) + parseInt(answerArray[12]) + parseInt(answerArray[14]) + parseInt(answerArray[15]) + parseInt(answerArray[17]) + parseInt(answerArray[19]);
@@ -118,6 +135,9 @@ function calculateScores() {
     
 }
 
+/**
+ * code for displaying all categories needed displayed
+ */
 function displayResult() {
     document.getElementById('submit').style.display = 'none';
     document.getElementById('previous').style.display = 'none';
@@ -151,6 +171,9 @@ function displayResult() {
     } 
 }   
 
+/**
+ * function to generate link for chosen location for assessors
+ */
 function searchBtn() {
     let adhdSearch = document.getElementById('location').value;
     window.open('https://www.google.com/search?q=child+adhd+assessment+near+'+ adhdSearch, '_blank');
