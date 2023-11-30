@@ -30,6 +30,14 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
   
 ![Header](assets/screenshots/header.png)
 
+- __Footer__
+
+- this is featured on the bottom of the page.
+- This is responsive and can be scaled for different browsers and screen sizes.
+- It has a disclaimer that this cannot actually be used to diagnose and is for screening purposes only.
+  
+![Footer](assets/screenshots/footer.png)
+
 - __Quiz Area__
 
 - This is the center focus of the page and contains navigation buttons and will populate all 24 questions and drop downs.
@@ -46,3 +54,70 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 
 ![Nav Buttons](assets/screenshots/nav-buttons.png)
 
+- __Submit and Show Result__
+
+- Submit button appears when all questions answered and show result appears after submit clicked.
+- Submit button calculates scores up between all 6 metrics. Show Result reveals info based off each metric reached.
+- Designed to be easy to understand.
+
+![Submit and Show result](assets/screenshots/submits.png)
+
+- __Main result__
+
+- This displays if your score is above the limit to be considered of ADHD.
+- This gives an overview of ADHD and links to assessments and more resources.
+
+![Main Result](assets/screenshots/adhd-result.png)
+
+- __Search Bar__
+
+- This displays if your score is above the limit to be considered of ADHD.
+- This has an input box where you can type in your current application.
+- When you click search it will bring you to links for adhd assessors near the location in the input box.
+- Link open in a seperate tab to not take away from current website.
+
+![Search Bar](assets/screenshots/search-bar.png)
+
+- __More Resources__
+
+- This displays if your score is above the limit to be considered of ADHD.
+- This has links to more resources that could be handy to know if your child may have ADHD.
+- There is a link to ADHD Ireland, CAMHS and some YouTube videos that have helpful advice and information.
+- All links open in seperate tabs to not take away from current website.
+
+![More Resources](assets/screenshots/more-resources.png)
+
+- __Conduct__
+
+- This displays if your responses display conduct/behavioural problems. 
+- This has an insight into children who have these issues
+
+![Conduct](assets/screenshots/conduct.png)
+
+- __Learning__
+
+- This displays if your responses display learning problems. 
+- This has an insight into children who have these issues
+
+![Learning](assets/screenshots/learning.png)
+
+- __Psychosomatic__
+
+- This displays if your responses display psychosomatic problems. 
+- This has an insight into children who have these issues
+
+![Psychosomatic](assets/screenshots/psychosomatic.png)
+
+- __Hyperactive and Impulsive__
+
+- This displays if your responses display hyperactive/impulsive problems. 
+- This has an insight into children who have these issues
+
+![Hyperactive and Impulsive](assets/screenshots/hyper.png)
+
+- __Anxiety__
+
+- This displays if your responses display anxiety problems. 
+- This has an insight into children who have these issues
+
+![Anxiety](assets/screenshots/anxiety.png)
