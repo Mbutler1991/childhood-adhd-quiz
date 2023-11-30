@@ -1,39 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Childhood ADHD Quiz
 
-Welcome,
+![Am I Responsive](assets/screenshots/am-i-responsive.png)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This project was made using Javascript, HTML and CSS to check the likelihood of your child/children having ADHD and which of the 5 different categories of symptoms they fall into. The target audience of this website is parents who are concerned that their child may have ADHD, teachers/school staff aiming to get an idea of the childs needs or even psychologists as we use the Conners test to build this and that would be the main test for childhood ADHD as it stands it alone cannot be used to make diagnosis as people can lie on the test but in the hands of a specialist can be used to help them reach a decision.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+This website is mainly aimed at parents and if answered honestly can be used for pre screening for their children and to hopefully cut down the long waiting lists, 9 years plus in some countries to get a diagnosis.
 
-## Codeanywhere Reminders
+This website can also be used in educational purposes as it breaks ADHD into the different categories of symptoms and gives a good overview on the people who display symptoms from these categories.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The aim is to work from this product to one day build a diagnostic app to cut out the long waiting times for diagnosis so that no child should be left behind.
 
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+I would ideally like to introduce ths to parents using SEO marketing, leveraging schools as they would like to assist parents in this and word of mouth ideally.
