@@ -121,3 +121,15 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 - This has an insight into children who have these issues
 
 ![Anxiety](assets/screenshots/anxiety.png)
+
+## Deployment 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - I created a repository using GitHub repositories and the CI template.
+  - I opened it in my preferred IDE (VS Code) to write the code.
+  - I added all commits through the git change tab and also used this tab for pulling and pushing to my master branch.
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - (https://mbutler1991.github.io/childhood-adhd-quiz/)
