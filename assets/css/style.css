@@ -146,6 +146,12 @@ a:hover {
 }
 
 /*responsive settings for smaller screens*/
+@media screen and (max-width: 1980px) {
+    body {
+    background: url('../images/adhd-background1512.webp') no-repeat bottom center/cover;
+    }
+}
+
 @media screen and (max-width: 650px) {
     #metric, header, #footer, .quiz {
         width: 90%;
