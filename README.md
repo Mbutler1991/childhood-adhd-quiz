@@ -60,7 +60,7 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 - Submit button calculates scores up between all 6 metrics. Show Result reveals info based off each metric reached.
 - Designed to be easy to understand.
 
-![Submit and Show result](assets/screenshots/submits.png)
+![Submit and Show result](assets/screenshots/submit.png)
 
 - __Main result__
 
