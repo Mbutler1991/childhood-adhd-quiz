@@ -127,6 +127,51 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 
 ![Anxiety](assets/screenshots/anxiety.png)
 
+## Testing
+
+I have tested this webpage using W3C validator for HTML and Jigsaw validator for CSS and JSHint for JavaScript.
+
+All interactions on the web page have also been tested on multiple devices and all work as expected.
+
+All links take you to where they are meant to bring you and open in different tabs.
+
+Search bar link takes you to google search of closest ADHD assessors to location put into input box and I checked this with a large number of different towns globally.
+
+Tested the quiz multiple times with and without the table visible to ensure that it displayed the correct information based off all 6 scoring metrics and that all questions filtered to the right area and all 4 buttons work as expected.
+
+I tested this for accessibility across multiple different browsers and used Google Dev tools to check accross devices. I used google dev tools and resized by hand to every possible dimension to ensure website still looked good and also used a screenshot from Am I Responsive to ensure page scaled well across all device sizes, please see screenshot on top of file.
+I checked this on screens ranging from 320 to 1980 pixels.
+
+I also used Wave to check for contrast and errors and found one error, no label for input box, after multiple different tests I found that having placeholder text instead of a label looked better and better complemented the design of the website, also received a contrast ratio of 8.59:1 on index.html.
+
+![Wave1](assets/screenshots/wave1.png)
+![Wave2](assets/screenshots/wave2.png)
+
+I also used lighthouse to test and got a high score across all metrics.
+
+![Lighthouse](assets/screenshots/lighthouse.png)
+
+### Bugs
+
+I encountered one bug where my next button was skipping the first question and needed double click on change from next to previous or previous to next and then answers added scores to incorrect questions, had to change i to -1 for beginning and add a -1 to after questions.length in the display function.
+Also found another bug where I could not make the scores carry until the very end, to fix this I had to nest a function within display questions function before the calculateScores function was called and add a hidden HTML table to the HTML page which would filter scores in after submit was clicked.
+
+### Validator Testing
+
+ - HTML
+  - No errors returned on any page when running through the official [W3C Validator] 
+    
+![W3C](assets/screenshots/html-validation.png)
+ - CSS
+  - No errors returned when running through the official [Jigsaw Validator]
+
+![Jigsaw](assets/screenshots/css-validation.png)
+
+- JavaScript
+  - No errors returned when running through the official [JSHint]
+
+![JSHint](assets/screenshots/js-validation.png)
+
 ## Deployment 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
