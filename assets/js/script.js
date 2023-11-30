@@ -1,6 +1,3 @@
-
-
-
 /**
  * array of questions
  */
@@ -77,7 +74,7 @@ function displayQuestions() {
             <option value='1'>Just a Little</option>
             <option value='2'>Pretty Much</option>
             <option value='3'>Very Much</option>
-        </select>`  
+        </select>`;
         document.getElementById('start').innerText = 'Next Question!';
         document.getElementById('previous').style.display = 'inline';
          
