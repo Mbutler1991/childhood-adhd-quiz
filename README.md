@@ -91,6 +91,7 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 
 - This displays if your responses display conduct/behavioural problems. 
 - This has an insight into children who have these issues
+- The colour from this and 4 other symptom categories are the colours of the ADHD flag.
 
 ![Conduct](assets/screenshots/conduct.png)
 
@@ -98,6 +99,7 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 
 - This displays if your responses display learning problems. 
 - This has an insight into children who have these issues
+- The colour from this and 4 other symptom categories are the colours of the ADHD flag.
 
 ![Learning](assets/screenshots/learning.png)
 
@@ -105,6 +107,7 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 
 - This displays if your responses display psychosomatic problems. 
 - This has an insight into children who have these issues
+- The colour from this and 4 other symptom categories are the colours of the ADHD flag.
 
 ![Psychosomatic](assets/screenshots/psychosomatic.png)
 
@@ -112,6 +115,7 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 
 - This displays if your responses display hyperactive/impulsive problems. 
 - This has an insight into children who have these issues
+- The colour from this and 4 other symptom categories are the colours of the ADHD flag.
 
 ![Hyperactive and Impulsive](assets/screenshots/hyper.png)
 
@@ -119,6 +123,7 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 
 - This displays if your responses display anxiety problems. 
 - This has an insight into children who have these issues
+-  The colour from this and 4 other symptom categories are the colours of the ADHD flag.
 
 ![Anxiety](assets/screenshots/anxiety.png)
 
@@ -133,3 +138,25 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - (https://mbutler1991.github.io/childhood-adhd-quiz/)
+
+## Credits
+
+### Content
+
+The content for this website has mostly been taken from personal experiences from my partner and I who both have ADHD and a number of children with ADHD. My partner also has beeen studying related subjects.
+The questions and scoring metrics were taken from the Conners 4 Clinical Index test which is a shortened version of the Conners 4 ADHD test.
+
+### Media
+
+Images and videos came from a number of different sources
+ - Favicon from www.flaticon.com 
+ - Background image was drawn by hand by my partner Nikita Ellison for the sole purpose of use in this project.
+ - Links are from ADHD Ireland, HSE and YouTube videos from the HowToADHD Youtube channel. 
+
+### Code
+
+All code in this website is my own to the best of my knowledge, under the guidance of my mentor Lauren-Nicole Popich.
+
+## Thanks
+
+I would like to give recognition to my fantastic mentor Lauren-Nicole Popich for her help with and guidance on this project, to David Calikes for his informative lessons and assistance with any questions even though he is extremely busy and to my life partner Nikita Ellison for keeping me grounded, advising me to step away when needed and ensuring I took care of myself as I got lost in the code.
