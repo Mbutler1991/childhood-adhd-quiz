@@ -19,3 +19,30 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 - As a student, I can check the likelihood of ADHD in myself, so that I can use resources gained to help myself study and learn in a way that works for me.
 - As a parent, I can prescreen my own kids for ADHD and use the ADHD Assessment locator to best get my children diagnosed and find them the help they need.
 - As a teacher, I can screen kids based off the multiple different categories so I know how best to plan my lessons so no child gets left behind.
+
+## Features 
+
+- __Header__
+
+- this is featured on the top of the page and contains the name of the website and a logo which was downloaded from favicon.
+- This is responsive and can be scaled for different browsers and screen sizes and will remain on top.
+- The background and font colour follows same page layout.
+  
+![Header](assets/screenshots/header.png)
+
+- __Quiz Area__
+
+- This is the center focus of the page and contains navigation buttons and will populate all 24 questions and drop downs.
+- This is designed to be resposive and also with larger text both for design and to help people with sight difficulties.
+- It is also designed to be simple and easy to use.
+
+![Quiz Area](assets/screenshots/quiz-area.png)
+
+- __Navigational Buttons__
+
+- A next and a previous buttons to easily move through all 24 questions.
+- Previous button will not allow movement before first question and next wont allow past last.
+- Designed to be easy to understand.
+
+![Nav Buttons](assets/screenshots/nav-buttons.png)
+
