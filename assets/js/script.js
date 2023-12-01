@@ -139,6 +139,11 @@ function displayResult() {
     document.getElementById('submit').style.display = 'none';
     document.getElementById('previous').style.display = 'none';
     document.getElementById('start').style.display = 'none';  
+    document.getElementById('reveal').style.display = 'none'; 
+    let displayedQuestion = document.getElementById('quiz');
+    displayedQuestion.innerHTML = '';
+    document.getElementById('hide').style.visibility = 'hidden';
+    
 
     adhdScore = parseInt(document.getElementById('a-score').innerHTML);
     conductScore = parseInt(document.getElementById('b-score').innerHTML);

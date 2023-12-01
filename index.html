@@ -22,18 +22,20 @@
         </header>
         <main>
             <!--box and form for quiz-->
-            <div class="quiz">
-                <form id="quiz">
+            <div id="hide">
+                <div class="quiz">
+                    <form id="quiz">
                     
                     
-                </form><br>
+                    </form><br>
                 <!--buttons for quiz navigation, calculating score and revealing answers-->
-                <button  value="previous" id="previous" onclick="previousQuestion();">Previous</button> 
-                <button value="start" name="start" id="start" onclick="displayQuestions();">Start</button>
-                <input type="submit" id="submit" name="submit" value="Submit" onclick="setScore();">
-                <button name="reveal" id="reveal" onclick="displayResult();">Show Result</button>
-                <br><br>
+                    <button  value="previous" id="previous" onclick="previousQuestion();">Previous</button> 
+                    <button value="start" name="start" id="start" onclick="displayQuestions();">Start</button>
+                    <input type="submit" id="submit" name="submit" value="Submit" onclick="setScore();">
+                    <button name="reveal" id="reveal" onclick="displayResult();">Show Result</button>
+                    <br><br>
             
+                </div>
             </div>
             <!--div containing main adhd result-->
             <div id="adhd-result">
