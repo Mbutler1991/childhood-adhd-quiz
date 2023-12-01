@@ -204,4 +204,4 @@ All code in this website is my own to the best of my knowledge, under the guidan
 
 ## Thanks
 
-I would like to give recognition to my fantastic mentor Lauren-Nicole Popich for her help with and guidance on this project, to David Calikes for his informative lessons and assistance with any questions even though he is extremely busy and to my life partner Nikita Ellison for keeping me grounded, advising me to step away when needed and ensuring I took care of myself as I got lost in the code.
+I would like to give recognition to my fantastic mentor Lauren-Nicole Popich for her help with and guidance on this project, to Laura Mayock for her informative lessons and assistance with any questions even though she is extremely busy and to my life partner Nikita Ellison for keeping me grounded, advising me to step away when needed, ensuring I took care of myself as I got lost in the code and for help with artwork and layout.
