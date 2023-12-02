@@ -73,6 +73,7 @@ main {
     margin: 1em;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 } 
 
 #adhd-result {
