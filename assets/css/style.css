@@ -161,15 +161,18 @@ a:hover {
         font-size: 100%;
     }
 
+    #metric {
+        display: flex;
+    }
+
     .metric {
         width: 100%;
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     } 
 
     body {
-        background: url('../images/adhd-background650.webp') no-repeat bottom center/cover;
+        background: url('../images/adhd-background1512.webp') no-repeat bottom center/cover;
     }
 }
 
