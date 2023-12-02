@@ -161,10 +161,9 @@ a:hover {
     }
 
     .metric {
-        width: 90%;
+        width: 100%;
         display: flex;
-        margin: 1em;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: no-wrap;
     } 
 
