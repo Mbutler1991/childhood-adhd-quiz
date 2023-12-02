@@ -148,7 +148,7 @@ a:hover {
 /*responsive settings for smaller screens*/
 @media screen and (max-width: 1980px) {
     body {
-    background: url('../images/adhd-background1512.webp') no-repeat bottom center/cover;
+        background: url('../images/adhd-background1512.webp') no-repeat bottom center/cover;
     }
 }
 
@@ -161,11 +161,11 @@ a:hover {
     }
 
     .metric {
-    width: 90%;
-    display: flex;
-    margin: 1em;
-    flex-direction: column;
-    flex-wrap: no-wrap;
+        width: 90%;
+        display: flex;
+        margin: 1em;
+        flex-direction: column;
+        flex-wrap: no-wrap;
     } 
 
     body {
