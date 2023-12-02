@@ -12,6 +12,7 @@ body {
     justify-content: space-between;
     overflow-x: auto;
     overflow-y: hidden;
+    flex-wrap: wrap;
 }
 
 /*basic layout for header, footer and main content*/
