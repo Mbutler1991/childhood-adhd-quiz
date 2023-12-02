@@ -168,8 +168,9 @@ a:hover {
 
     .metric {
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
     } 
 
     body {
