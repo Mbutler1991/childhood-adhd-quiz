@@ -152,7 +152,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 900px) {
     #metric, header, #footer, .quiz {
         width: 90%;
         margin-left: 5%;
