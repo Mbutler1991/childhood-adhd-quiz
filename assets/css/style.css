@@ -151,7 +151,7 @@ a:hover {
 /*responsive settings for smaller screens*/
 @media screen and (max-width: 1980px) {
     body {
-        background: url('../images/adhd-background1512.webp') no-repeat bottom center/cover;
+        background: url('../images/adhd-background.webp') no-repeat bottom center/cover;
     }
 }
 
@@ -175,12 +175,12 @@ a:hover {
     } 
 
     body {
-        background: url('../images/adhd-background1512.webp') no-repeat bottom center/cover;
+        background: url('../images/adhd-background.webp') no-repeat bottom center/cover;
     }
 }
 
 @media screen and (max-width: 450px) {
     body {
-        background: url('../images/adhd-background450.webp') no-repeat bottom center/cover;
+        background: url('../images/adhd-background.webp') no-repeat bottom center/cover;
     }
 }
