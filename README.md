@@ -20,6 +20,15 @@ I would ideally like to introduce ths to parents using SEO marketing, leveraging
 - As a parent, I can prescreen my own kids for ADHD and use the ADHD Assessment locator to best get my children diagnosed and find them the help they need.
 - As a teacher, I can screen kids based off the multiple different categories so I know how best to plan my lessons so no child gets left behind.
 
+## Wireframe
+
+Wireframe was created with Balsamiq and some changes have been made since this stage
+
+![Wireframe1](assets/wireframe/wireframe1.png)
+![Wireframe2](assets/wireframe/wireframe2.png)
+
+There is two wireframes seen here. The first one is for the quiz page, made some changes since this design and changed to one question per page and chose drop down boxes instead of radio buttons. The second is the results page, the original wireframe was when it was initially only giving information on ADHD and not the symptoms categories, added in the 5 categories and the search bar, kept the rest the same but just added to this.
+
 ## Features 
 
 - __Header__
