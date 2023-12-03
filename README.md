@@ -178,6 +178,7 @@ Also found another bug where I could not make the scores carry until the very en
 
 - JavaScript
   - No errors returned when running through the official [JSHint]
+  - 4 unused variables but these are called in the HTML document.
 
 ![JSHint](assets/screenshots/js-validation.png)
 
