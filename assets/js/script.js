@@ -76,8 +76,7 @@ function displayQuestions() {
             <option value='3'>Very Much</option>
         </select>`;
         document.getElementById('start').innerText = 'Next Question!';
-        document.getElementById('previous').style.display = 'inline';
-         
+        document.getElementById('previous').style.display = 'inline';  
         
         let answer = document.getElementById('each-question');
         let btn = document.getElementById('submit');
@@ -87,9 +86,13 @@ function displayQuestions() {
         answerArray.push(gatherScore);
         document.getElementById('reveal').style.display = 'inline';
         calculateScores();
+        document.getElementById('submit').style.display = 'none';
+        document.getElementById('start').style.display = 'none';
+        document.getElementById('previous').style.display = 'none';
         });   
     } else {
         document.getElementById('submit').style.display = 'inline';
+        document.getElementById('start').style.display = 'none';
     }
 }  
 
@@ -108,7 +111,9 @@ function previousQuestion() {
             <option value='2'>Pretty Much</option>
             <option value='3'>Very Much</option>
         </select>`;
-        
+        if (i < (questions.length - 1)) {
+            document.getElementById('start').style.display = 'inline';
+        }
    }
 }
 
