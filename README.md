@@ -57,9 +57,9 @@ There is two wireframes seen here. The first one is for the quiz page, made some
 
 - __Navigational Buttons__
 
-- A next and a previous buttons to easily move through all 24 questions.
-- Previous button will not allow movement before first question and next wont allow past last.
-- Designed to be easy to understand.
+- A next button to easily move through all 24 questions.
+- The start button turns into the next button.
+- Next button disappears when you get to the last question.
 
 ![Nav Buttons](assets/screenshots/nav-buttons.png)
 
