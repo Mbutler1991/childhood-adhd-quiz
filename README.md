@@ -2,7 +2,7 @@
 
 ![Am I Responsive](assets/screenshots/am-i-responsive.png)
 
-This project was made using Javascript, HTML and CSS to check the likelihood of your child/children having ADHD and which of the 5 different categories of symptoms they fall into. The target audience of this website is parents who are concerned that their child may have ADHD, teachers/school staff aiming to get an idea of the childs needs or even psychologists as we use the Conners test to build this and that would be the main test for childhood ADHD as it stands it alone cannot be used to make diagnosis as people can lie on the test but in the hands of a specialist can be used to help them reach a decision.
+This project was made using JavaScript, HTML and CSS to check the likelihood of your child/children having ADHD and which of the 5 different categories of symptoms they fall into. The target audience of this website is parents who are concerned that their child may have ADHD, teachers/school staff aiming to get an idea of the childs needs or even psychologists as we use the Conners test to build this and that would be the main test for childhood ADHD as it stands it alone cannot be used to make diagnosis as people can lie on the test but in the hands of a specialist can be used to help them reach a decision.
 
 This website is mainly aimed at parents and if answered honestly can be used for pre screening for their children and to hopefully cut down the long waiting lists, 9 years plus in some countries to get a diagnosis.
 
@@ -12,13 +12,13 @@ This can also be used by teenagers to do a self screening as the Conners test is
 
 The aim is to work from this product to one day build a diagnostic app to cut out the long waiting times for diagnosis so that no child should be left behind.
 
-I would ideally like to introduce ths to parents using SEO marketing, leveraging schools as they would like to assist parents in this and word of mouth ideally.
+I would ideally like to introduce this to parents using SEO marketing, leveraging schools as they would like to assist parents in this and word of mouth ideally.
 
 ## User Stories
 
 - As a student, I can check the likelihood of ADHD in myself, so that I can use resources gained to help myself study and learn in a way that works for me.
-- As a parent, I can prescreen my own kids for ADHD and use the ADHD Assessment locator to best get my children diagnosed and find them the help they need.
-- As a teacher, I can screen kids based off the multiple different categories so I know how best to plan my lessons so no child gets left behind.
+- As a parent, I can pre-screen my own kids for ADHD and use the ADHD Assessment locator to best get my children diagnosed and find them the help they need.
+- As a teacher, I can screen kids based off the multiple different categories, so I know how best to plan my lessons so no child gets left behind.
 
 ## Wireframe
 
@@ -27,7 +27,7 @@ Wireframe was created with Balsamiq and some changes have been made since this s
 ![Wireframe1](assets/wireframe/wireframe1.png)
 ![Wireframe2](assets/wireframe/wireframe2.png)
 
-There is two wireframes seen here. The first one is for the quiz page, made some changes since this design and changed to one question per page and chose drop down boxes instead of radio buttons. The second is the results page, the original wireframe was when it was initially only giving information on ADHD and not the symptoms categories, added in the 5 categories and the search bar, kept the rest the same but just added to this.
+There are two wireframes seen here. The first one is for the quiz page, made some changes since this design and changed to one question per page and chose drop down boxes instead of radio buttons. The second is the results page, the original wireframe was when it was initially only giving information on ADHD and not the symptoms categories, added in the 5 categories and the search bar, kept the rest the same but just added to this.
 
 ## Features 
 
@@ -49,8 +49,8 @@ There is two wireframes seen here. The first one is for the quiz page, made some
 
 - __Quiz Area__
 
-- This is the center focus of the page and contains navigation buttons and will populate all 24 questions and drop downs.
-- This is designed to be resposive and also with larger text both for design and to help people with sight difficulties.
+- This is the centre focus of the page and contains navigation buttons and will populate all 24 questions and drop downs.
+- This is designed to be responsive and also with larger text both for design and to help people with sight difficulties.
 - It is also designed to be simple and easy to use.
 
 ![Quiz Area](assets/screenshots/quiz-area.png)
@@ -83,7 +83,7 @@ There is two wireframes seen here. The first one is for the quiz page, made some
 - This displays if your score is above the limit to be considered of ADHD.
 - This has an input box where you can type in your current application.
 - When you click search it will bring you to links for adhd assessors near the location in the input box.
-- Link open in a seperate tab to not take away from current website.
+- Link open in a separate tab to not take away from current website.
 
 ![Search Bar](assets/screenshots/search-bar.png)
 
@@ -92,7 +92,7 @@ There is two wireframes seen here. The first one is for the quiz page, made some
 - This displays if your score is above the limit to be considered of ADHD.
 - This has links to more resources that could be handy to know if your child may have ADHD.
 - There is a link to ADHD Ireland, CAMHS and some YouTube videos that have helpful advice and information.
-- All links open in seperate tabs to not take away from current website.
+- All links open in separate tabs to not take away from current website.
 
 ![More Resources](assets/screenshots/more-resources.png)
 
@@ -148,8 +148,8 @@ Search bar link takes you to google search of closest ADHD assessors to location
 
 Tested the quiz multiple times with and without the table visible to ensure that it displayed the correct information based off all 6 scoring metrics and that all questions filtered to the right area and all 4 buttons work as expected.
 
-I tested this for accessibility across multiple different browsers and used Google Dev tools to check accross devices. I used google dev tools and resized by hand to every possible dimension to ensure website still looked good and also used a screenshot from Am I Responsive to ensure page scaled well across all device sizes, please see screenshot on top of file.
-I checked this on screens ranging from 320 to 1980 pixels.
+I tested this for accessibility across multiple different browsers and used Google Dev tools to check across devices. I used google dev tools and resized by hand to every possible dimension to ensure website still looked good and also used a screenshot from Am I Responsive to ensure page scaled well across all device sizes, please see screenshot on top of file.
+I checked this on screens ranging from 320 to 1980 pixels. Also used Am-I-Responsive (pictured above) to check.
 
 I also used Wave to check for contrast and errors and found one error, no label for input box, after multiple different tests I found that having placeholder text instead of a label looked better and better complemented the design of the website, also received a contrast ratio of 8.59:1 on index.html.
 
@@ -198,15 +198,15 @@ The live link can be found here - (https://mbutler1991.github.io/childhood-adhd-
 
 ### Content
 
-The content for this website has mostly been taken from personal experiences from my partner and I who both have ADHD and a number of children with ADHD. My partner also has beeen studying related subjects.
+The content for this website has mostly been taken from personal experiences from my partner and I who both have ADHD and a number of children with ADHD. My partner also has been studying related subjects.
 The questions and scoring metrics were taken from the Conners 4 Clinical Index test which is a shortened version of the Conners 4 ADHD test.
 
 ### Media
 
-Images and videos came from a number of different sources
+Images and videos came from a number of different sources.
  - Favicon from www.flaticon.com 
  - Background image was drawn by hand by my partner Nikita Ellison for the sole purpose of use in this project.
- - Links are from ADHD Ireland, HSE and YouTube videos from the HowToADHD Youtube channel. 
+ - Links are from ADHD Ireland, HSE and YouTube videos from the HowToADHD YouTube channel. 
 
 ### Code
 
