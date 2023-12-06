@@ -110,7 +110,6 @@ function calculateScores() {
     document.getElementById('e-score').innerHTML = `${hyperScore}`;
     anxietyScore = parseInt(answerArray[6]) + parseInt(answerArray[9]);
     document.getElementById('f-score').innerHTML = `${anxietyScore}`;
-    
 }
 
 /**
@@ -123,7 +122,6 @@ function displayResult() {
     let displayedQuestion = document.getElementById('quiz');
     displayedQuestion.innerHTML = '';
     document.getElementById('hide').style.display = 'none';
-    
 
     adhdScore = parseInt(document.getElementById('a-score').innerHTML);
     conductScore = parseInt(document.getElementById('b-score').innerHTML);
@@ -139,15 +137,19 @@ function displayResult() {
     if (conductScore >= 14) {
         document.getElementById('conduct-result').style.display = 'block';
     } 
+
     if (learningScore >= 7) {
         document.getElementById('learning-result').style.display = 'block';
     }
+
     if (psychosomaticScore >= 7) {
         document.getElementById('psychosomatic-result').style.display = 'block';
     } 
+
     if (hyperScore >= 7) {
         document.getElementById('hyper-result').style.display = 'block';
     } 
+    
     if (anxietyScore >= 3) {
         document.getElementById('anxiety-result').style.display = 'block';
     } 
