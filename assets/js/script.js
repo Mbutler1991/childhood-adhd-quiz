@@ -47,7 +47,6 @@ let i = -1;
  * hiding buttons not needed until later
  */
  document.getElementById('submit').style.display = 'none';
- document.getElementById('previous').style.display = 'none';
  
 /**
  * make all scores hidden
@@ -75,8 +74,7 @@ function displayQuestions() {
             <option value='2'>Pretty Much</option>
             <option value='3'>Very Much</option>
         </select>`;
-        document.getElementById('start').innerText = 'Next Question!';
-        document.getElementById('previous').style.display = 'inline';  
+        document.getElementById('start').innerText = 'Next Question!'; 
         
         let answer = document.getElementById('each-question');
         let btn = document.getElementById('submit');
@@ -88,34 +86,12 @@ function displayQuestions() {
         calculateScores();
         document.getElementById('submit').style.display = 'none';
         document.getElementById('start').style.display = 'none';
-        document.getElementById('previous').style.display = 'none';
         });   
     } else {
         document.getElementById('submit').style.display = 'inline';
         document.getElementById('start').style.display = 'none';
     }
 }  
-
-/**
- * function for navigating to previous questions
- */
-function previousQuestion() {
-   
-    if (i > 0) {
-        --i;
-        let displayedQuestion = document.getElementById('quiz');
-        displayedQuestion.innerHTML = `<label for="each-question" id="test">${questions[i]}</label>
-        <select id="each-question">
-            <option value='0'>Never</option>
-            <option value='1'>Just a Little</option>
-            <option value='2'>Pretty Much</option>
-            <option value='3'>Very Much</option>
-        </select>`;
-        if (i < (questions.length - 1)) {
-            document.getElementById('start').style.display = 'inline';
-        }
-   }
-}
 
 /**
  * adding up all the scores in their own metric
@@ -142,12 +118,11 @@ function calculateScores() {
  */
 function displayResult() {
     document.getElementById('submit').style.display = 'none';
-    document.getElementById('previous').style.display = 'none';
     document.getElementById('start').style.display = 'none';  
     document.getElementById('reveal').style.display = 'none'; 
     let displayedQuestion = document.getElementById('quiz');
     displayedQuestion.innerHTML = '';
-    document.getElementById('hide').style.visibility = 'hidden';
+    document.getElementById('hide').style.display = 'none';
     
 
     adhdScore = parseInt(document.getElementById('a-score').innerHTML);
