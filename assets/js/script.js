@@ -46,7 +46,7 @@ let i = -1;
 /**
  * hiding buttons not needed until later
  */
- document.getElementById('submit').style.display = 'none';
+ //document.getElementById('submit').style.display = 'none';
  
 /**
  * make all scores hidden
@@ -72,7 +72,7 @@ function displayQuestions() {
             <option value='0'>Never</option>
             <option value='1'>Just a Little</option>
             <option value='2'>Pretty Much</option>
-            <option value='3'>Very Much</option>
+            <option value='3' selected>Very Much</option>
         </select>`;
         document.getElementById('start').innerText = 'Next Question!'; 
         

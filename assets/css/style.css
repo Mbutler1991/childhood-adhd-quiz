@@ -60,21 +60,24 @@ main {
     width: 80%;
     margin-left: 10%;
     background-color: rgb(106, 90, 205);
+    
 }
 
 /*layout for all result metrics*/
 #metric{
     display: flex;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .metric {
-    width: 30%;
+    justify-content: space-between;
+    width: 29%;
     display: flex;
     margin: 1em;
 } 
@@ -122,7 +125,7 @@ main {
     display: none;
 } 
 
-/*huide reveal answers button until end*/
+/*hide reveal answers button until end*/
 #reveal {
     display: none;
 }
@@ -170,7 +173,6 @@ a:hover {
 
     .metric {
         width: 100%;
-        /*flex-direction: column;*/
         flex-wrap: wrap;
         align-items: center;
     } 
